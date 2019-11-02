@@ -1,0 +1,7 @@
+include README.md
+include LICENSE.md
+recursive-include mind_core/static *.js *.css *.png *.ico *.eot *.svg *.ttf *.woff *.woff2
+recursive-include mind_core/templates *.html schema.js
+recursive-include mind_core/locale *.mo
+global-exclude __pycache__
+global-exclude *.py[co]
